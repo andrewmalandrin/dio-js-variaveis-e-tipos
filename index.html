@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="text/css" href="/css/style.css">
+    <title>Variaveis e tipos</title>
+</head>
+<body>
+    <section class="verifica-palindromo">
+        <div class="container">
+            <h1>Verifica palindromo</h1>
+            <p>Insira uma palavra ou frase para verificar se é um palindromo</p>
+            <input type="text" name="teste-palindromo-input" id="teste-palindromo-input"><button onclick="verificaPalindromo()">Continuar</button>
+            <p id="resposta-palindromo"></p>
+        </div>
+    </section>
+    <section class="substitui-numeros-pares">
+        <div class="container">
+            <h1>Substitui números pares</h1>
+            <p>Insira os números do array até que esteja satisfeito e clique em substituir para substituir os pares por 0</p>
+            <input type="number" name="substitui-pares-input" id="substitui-pares-input"><button onclick="adicionarNumero()">Adicionar Numero</button><br><button onclick="substituiNumerosPares()">Substituir Pares</button>
+            <p id="array"></p>
+            <p id="resposta-substitui-pares"></p>
+        </div>
+    </section>
+    <script src="/assets/js/verificaPalindromo.js"></script>
+    <script src="/assets/js/substituiNumerosPares.js"></script>
+</body>
+</html>
